@@ -9,3 +9,7 @@ app.listen(port,()=>{
 app.get("/",(req,resp)=>{
     resp.json({"msg":"Hello heroku and git also"})
 })
+
+app.get("/login",(req,resp)=>{
+    resp.send("Login successfully")
+})
