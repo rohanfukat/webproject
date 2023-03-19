@@ -7,5 +7,5 @@ app.listen(port,()=>{
 })
 
 app.get("/",(req,resp)=>{
-    resp.json({"msg":"Hello heroku"})
+    resp.json({"msg":"Hello heroku and git also"})
 })
